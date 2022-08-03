@@ -1,60 +1,60 @@
-public class Task6{
-       public static void main(String[] args){
-           String text1a = " a) ********";
-           String text2a ="    ********";
-           String text3a ="    ********";
-           String text4a ="    ********";
-           String text5a ="    ********";
-           String text6a ="    ********";
-           String text7a ="    ********";
-           String text8a ="    ********";
-           System.out.println(text1a);
-           System.out.println(text2a);
-           System.out.println(text3a);
-           System.out.println(text4a);
-           System.out.println(text5a);
-           System.out.println(text6a);
-           System.out.println(text7a);
-           System.out.println(text8a);
-           System.out.println("");
+public class Task6 {
+    public static void main(String[] args) {
+        System.out.println("a)");
+        for (int i = 0; i <= 7; i++) {
+            for (int j = 0; j <= 6; j++) {
+                System.out.print(" *");
+            }
+            System.out.println(" *");
+        }
+        System.out.println("b)");
 
-           String text1b = " b) ********";
-           String text2b ="    *      *";
-           String text3b ="    *      *";
-           String text4b ="    *      *";
-           String text5b ="    ********";
-           System.out.println(text1b);
-           System.out.println(text2b);
-           System.out.println(text3b);
-           System.out.println(text4b);
-           System.out.println(text5b);
-           System.out.println("");
+        for (int y = 0; y <= 4; y++) {
+            if (y == 0 || y == 4) {
+                for (int x = 0; x <= 7; x++) {
+                    System.out.print(" *");
+                }
+                System.out.println("");
+            } else {
+                for (int x = 0; x <= 7; x++) {
+                    if (x == 0 || x == 7) {
+                        System.out.print(" *");
+                    } else {
+                        System.out.print("  ");
+                    }
+                }
+                System.out.println("");
+            }
+        }
 
-           String text1c = " c) *";
-           String text2c ="    **";
-           String text3c ="    ***";
-           String text4c ="    ****";
-           String text5c ="    *****";
-           String text6c ="    ******";
-           String text7c ="    *******";
-           System.out.println(text1c);
-           System.out.println(text2c);
-           System.out.println(text3c);
-           System.out.println(text4c);
-           System.out.println(text5c);
-           System.out.println(text6c);
-           System.out.println(text7c);
-           System.out.println("");
 
-           String text1d = " d)     *";
-           String text2d ="       ***";
-           String text3d ="      *****";
-           String text4d ="     *******";
-           String text5d ="    *********";
-           System.out.println(text1d);
-           System.out.println(text2d);
-           System.out.println(text3d);
-           System.out.println(text4d);
-           System.out.println(text5d);
+        System.out.println("c)");
+
+        for (int i = 0; i <= 6; i++) {
+            for (int j = 0; j <= i; j++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+        System.out.println("d)");
+        int n = 5;
+        for (int y = 1; y <= n; y++) {
+            for (int x = 1; x <= n - y; x++) {
+                System.out.print("  ");
+            }
+            for (int c = 1; c <= (y * 2) - 1; c++) {
+                System.out.print("* ");
+            }
+            System.out.println(" ");
+        }
     }
 }
+
+
+
+
+
+
+
+
+

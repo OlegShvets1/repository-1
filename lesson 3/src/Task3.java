@@ -3,10 +3,10 @@ public class Task3 {
         String word1 = "The End";
         String word2 = "End The";
         String word3 = "The";
-        if (word1.substring(1,3) == word3.substring(1,3)); {
-            System.out.print("String start with 'The'");
-        }else{
-           //     System.out.print("String doesn't start with 'The'");
-            }
+       boolean a = word1.startsWith(word3); System.out.println(a);
+       boolean b = word2.startsWith(word3); System.out.println(b);
     }
 }
+
+
+

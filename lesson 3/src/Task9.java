@@ -7,10 +7,26 @@ String a = "Infinity";
 public class Task9 {
     public static void main(String[] args) {
         String str = "Infinity".toLowerCase();
-        String findStr = "i";
-        String findStrn = "n";
-        System.out.println( "'i' occurs  "+ (str.split(findStr, -1).length - 1) + " times" );
-        System.out.println( "'n' occurs  "+ (str.split(findStrn, -1).length - 1) + " times" );
+        String findStr1 = "i";
+        String findStr2 = "n";
+        int q = 0;
+        int s = 0;
+        for (int i = 0; i <= str.length(); i++) {
+            String s1 = String.valueOf(str.charAt(i));
+            if (findStr1.equals(s1)) {
+                q = q + 1;
+                System.out.println(findStr1 + " occurs " + q + " times");
+            }
+        }
+
+//        for (int i = 0; i <= str.length(); i++) {
+//            String s1 = String.valueOf(str.charAt(i));
+//            if (findStr2.equals(s1)) {
+//                s = s + 1;
+//
+//            }
+//        }  System.out.println(findStr2 + " occurs " + s + " times");
     }
 }
+
 

@@ -1,10 +1,17 @@
 public class Task1 {
     public static void main(String[] args) {
-        String Str1 = "asdasd";
-        if (Str1.length() > 1) System.out.print(Str1.substring(0, 2));
-        if (Str1.length() == 1) System.out.println(Str1.charAt(0));
-        if (Str1.isEmpty()) System.out.print(" empty ");
+        System.out.println(getStr(""));
+                   }
+
+    public static String getStr(String str) {
+         str = "AE_1381";
+        if (str.length() == 0) {
+            return str = "";}
+        if (str.length() == 1){
+            return  str.substring(0,1);}
+        return str.substring(0, 2);
     }
 }
+
 
 

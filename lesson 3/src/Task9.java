@@ -12,20 +12,18 @@ public class Task9 {
         int q = 0;
         int s = 0;
         for (int i = 0; i <= str.length(); i++) {
+
             String s1 = String.valueOf(str.charAt(i));
             if (findStr1.equals(s1)) {
                 q = q + 1;
                 System.out.println(findStr1 + " occurs " + q + " times");
             }
-        }
 
-//        for (int i = 0; i <= str.length(); i++) {
-//            String s1 = String.valueOf(str.charAt(i));
-//            if (findStr2.equals(s1)) {
-//                s = s + 1;
-//
-//            }
-//        }  System.out.println(findStr2 + " occurs " + s + " times");
+            if (findStr2.equals(s1)) {
+                s = s + 1;
+                System.out.println(findStr2 + " occurs " + s + " times");
+            }
+        }
     }
 }
 

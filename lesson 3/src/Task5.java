@@ -4,8 +4,10 @@ public class Task5 {
         String b = "hello";
         int x = a.length();
         int y = b.length();
-        if (x < y) { String c = String.join(" ",a,b,a); System.out.println (c);
-            } else { String c = String.join(" ",b,a,b); System.out.println (c);
+        String c;
+        if (x < y) {  c = String.join(" ",a,b,a);
+            } else {  c = String.join(" ",b,a,b);
         }
+        System.out.println (c);
     }
 }

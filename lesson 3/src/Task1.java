@@ -5,8 +5,8 @@ public class Task1 {
     }
 
     public static String getStr(String str) {
-        if (str.length() == 1) {
-            return str.substring(0, 1);
+        if (str.length() <= 1) {
+            return str;
         } else {
             return str.substring(0, 2);
         }

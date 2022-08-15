@@ -10,12 +10,12 @@ public class Task9 {
 
         for (int i = 0; i <= str.length()-1; i++) {
             String s = String.valueOf(str.charAt(i));
+            int q = 0;
             for (int j = 0; j <= str.length()-1; j++) {
                 String s1 = String.valueOf(str.charAt(j));
                 if (s.equals(s1)) {
-                    int q = 0;
                     q = (q + 1);
-                    if (q>=1)  System.out.println(s + " occurs " + q + " times");
+                    if (q>=2) System.out.println(s + " occurs " + q + " times");
                 }
             }
         }

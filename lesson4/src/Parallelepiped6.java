@@ -3,13 +3,13 @@
           from which a constructor or a method was invoked.  */
 
 
-public class Parallelepiped_6 {
+public class Parallelepiped6 {
     public int a;
     public int b;
     public int c;
 
 
-    public Parallelepiped_6(int a, int b, int c) {
+    public Parallelepiped6(int a, int b, int c) {
         this.a = a;
         this.b = b;
         this.c = c;
@@ -23,7 +23,7 @@ public class Parallelepiped_6 {
     System.out.println(d);
          }
  public  static void main(String[] args)  {
-       Parallelepiped_6 parallelepiped_6 = new Parallelepiped_6(10,20,30);
-       parallelepiped_6.Volume();
+       Parallelepiped6 parallelepiped6 = new Parallelepiped6(10,20,30);
+       parallelepiped6.Volume();
     }
 }

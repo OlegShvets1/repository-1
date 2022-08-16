@@ -3,18 +3,18 @@
         Requirements:
         a) if ourBoxer.fight(anotherBoxer) returns true, then anotherBoxer.fight(outBoxer) should return false;*/
 
-public class Boxer_2 {
+public class Boxer2 {
     public int age;
     public int weight;
     public int strength;
 
-    public Boxer_2(int age, int weight, int strength) {
+    public Boxer2(int age, int weight, int strength) {
         this.age = age;
         this.weight = weight;
         this.strength = strength;
     }
 
-    public boolean fight(Boxer_2 anotherBoxer) {
+    public boolean fight(Boxer2 anotherBoxer) {
 
         Integer resultOurBoxer = this.age + this.weight + this.strength;
         Integer resultAnotherBoxer = anotherBoxer.age + anotherBoxer.weight + anotherBoxer.strength;
@@ -22,8 +22,8 @@ public class Boxer_2 {
     }
 
     public static void main(String[] args) {
-        Boxer_2 OurBoxer = new Boxer_2(60, 102, 30);
-        Boxer_2 AnotherBoxer = new Boxer_2(43, 90, 40);
+        Boxer2 OurBoxer = new Boxer2(60, 102, 30);
+        Boxer2 AnotherBoxer = new Boxer2(43, 90, 40);
         System.out.println(OurBoxer.fight(AnotherBoxer));
 
     }

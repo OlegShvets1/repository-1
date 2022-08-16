@@ -2,7 +2,7 @@
          Demonstrate in your class how we can use initialization blocks. */
 
 
-public class BookWhiteFang_7 {
+public class BookWhiteFang7 {
 
     public static String nameOfTheAutor;
     public static int year;
@@ -14,14 +14,14 @@ public class BookWhiteFang_7 {
         edition = 20000;                    //
     }
 
-    public BookWhiteFang_7() {
+    public BookWhiteFang7() {
         this.nameOfTheAutor = nameOfTheAutor;
         this.year = year;
         this.edition = edition;
        }
     public static void main(String[] arg){
-        BookWhiteFang_7 bookWhiteFang_7 = new BookWhiteFang_7();
-        System.out.println("Name of the autor -  " + bookWhiteFang_7.nameOfTheAutor+"."  + "  Year - " + bookWhiteFang_7.year+"." +   "  Edition - " + bookWhiteFang_7.edition+".");
+        BookWhiteFang7 bookWhiteFang7 = new BookWhiteFang7();
+        System.out.println("Name of the autor -  " + bookWhiteFang7.nameOfTheAutor+"."  + "  Year - " + bookWhiteFang7.year+"." +   "  Edition - " + bookWhiteFang7.edition+".");
 
     }
 }

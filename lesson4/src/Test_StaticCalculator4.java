@@ -8,10 +8,10 @@ In this main method you should create your StaticCalculator object and do some c
 by calling your "calculate" method.
 Print all results to the console.  */
 
-public class Test_StaticCalculator_4 {
+public class Test_StaticCalculator4 {
     public static void main(String[] args) {
-        StaticCalculator_4 staticCalculator_4 = new StaticCalculator_4();
-        staticCalculator_4.calculate(20,30,"Sum");
+        StaticCalculator4 staticCalculator4 = new StaticCalculator4();
+        staticCalculator4.calculate(20,30,"Sum");
 
     }
 }

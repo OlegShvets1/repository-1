@@ -1,7 +1,7 @@
 /*   9. Write your own example of the recursive function. You can find a lot of examples on the Internet. */
 
 
-public class Fibonachi_9 {
+public class Fibonachi9 {
      static void fib(int n) {
 
         int num0 = 0;

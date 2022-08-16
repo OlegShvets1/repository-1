@@ -8,12 +8,12 @@ by calling your "calculate" method.
 Print all results to the console.
 */
 
-public class StaticCalculator_4 {
+public class StaticCalculator4 {
     static  double firstValue;
     static double secondValue;
     static String operation;
 
-     public void  StaticCalculator_4 (double firstValue, double secondValue, String operation) {
+     public void  StaticCalculator4 (double firstValue, double secondValue, String operation) {
 
 
        this.firstValue = firstValue;

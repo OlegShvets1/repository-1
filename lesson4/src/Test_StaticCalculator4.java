@@ -11,7 +11,7 @@ Print all results to the console.  */
 public class Test_StaticCalculator4 {
     public static void main(String[] args) {
         StaticCalculator4 staticCalculator4 = new StaticCalculator4();
-        staticCalculator4.calculate(20,30,"Sum");
+        staticCalculator4.calculate("*");
 
     }
 }

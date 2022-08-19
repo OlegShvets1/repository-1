@@ -9,22 +9,39 @@ Print all results to the console.
 */
 
 public class StaticCalculator4 {
-    static  double firstValue;
-    static double secondValue;
     static String operation;
+     static  double firstValue = 30;
+     static double secondValue = 50;
 
-     public void  StaticCalculator4 (double firstValue, double secondValue, String operation) {
+
+     public StaticCalculator4 (double firstValue, double secondValue, String operation) {
 
 
        this.firstValue = firstValue;
         this.secondValue = secondValue;
         this.operation = operation;
+        String operation1="+";
+        String operation2="-";
+        String operation3="*";
+        String operation4="/";
     }
+public StaticCalculator4(){
 
-       public  static void calculate(double firstValue, double secondValue, String operation)  {
-           operation  = String.valueOf(firstValue + secondValue);
+}
+       public  static void calculate(String operation){
 
-                   System.out.println(operation );
+         switch (operation){
+             case "/": System.out.println(firstValue/secondValue);
+             break;
+             case "*": operation2: System.out.println(firstValue*secondValue);
+             break;
+             case "-": operation3: System.out.println(firstValue-secondValue);
+             break;
+             case "+": operation4: System.out.println(firstValue+secondValue);
+break;
+         }
+
+
            }
 
 }
